@@ -167,7 +167,7 @@
         "category": "living",
         "length": 13,
         "width": 10,
-        "random_event": null
+        "random_event": 102
     },
     "new_hostel": {                                                                                 
         "name": "2-х этажный хостел",
