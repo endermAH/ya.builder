@@ -3,153 +3,153 @@
         "name": "Вонючий куст",
         "cost": 1000,
         "description": "Будет благоухать на всю округу.",
-        "upgradable": true,
+        "upgradable": "true",
         "upgrade": "hole",
-        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "upgrade_cost": 0.5,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": 2.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 2.0,
         "requirement": null,
         "capacity": 0,
         "category": "comfort",
-        "length": 1, //кол-во клеток поля длина
-        "width": 1, //кол-во клеток поля ширина
+        "length": 1,
+        "width": 1,
         "random_event": null
     },
     "hole": {
         "name": "Яма",
         "cost": 4000,
         "description": "Внимательнее смотрите под ноги.",
-        "upgradable": true,
+        "upgradable": "true",
         "upgrade": "rustic_toilet",
-        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "upgrade_cost": 0.5,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": 2.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 2.0,
         "requirement": null,
         "capacity": 0,
         "category": "comfort",
-        "length": 2, //кол-во клеток поля длина
-        "width": 1, //кол-во клеток поля ширина
+        "length": 2,
+        "width": 1,
         "random_event": null
     },
     "rustic_toilet": {
         "name": "Деревенский туалет",
         "cost": 25000,
         "description": "Как у бабушки в деревне.",
-        "upgradable": true,
+        "upgradable": "true",
         "upgrade": "sebach",
-        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "upgrade_cost": 0.5,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 1.5, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.5,
         "requirement": null,
         "capacity": 0,
         "category": "comfort",
-        "length": 2, //кол-во клеток поля длина
-        "width": 2, //кол-во клеток поля ширина
+        "length": 2,
+        "width": 2,
         "random_event": null
     },
     "sebach": {
         "name": "Себач",
         "cost": 80000,
         "description": "Все туда ходят, но никто не признаётся.",
-        "upgradable": true,
+        "upgradable": "true",
         "upgrade": "public_toilet",
-        "upgrade_cost": 1.0, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "upgrade_cost": 1.0,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 1.3, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.3,
         "requirement": null,
         "capacity": 0,
         "category": "comfort",
-        "length": 2, //кол-во клеток поля длина
-        "width": 4, //кол-во клеток поля ширина
+        "length": 2,
+        "width": 4,
         "random_event": null
     },
     "public_toilet": {
         "name": "Общий туалет",
         "cost": 600000,
         "description": "Тепло, красиво, светло. И чисто.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 1860,
         "rent": 0,
-        "remove_cost": 2.3, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 2.3,
         "requirement": "septic",
         "capacity": 0,
         "category": "comfort",
-        "length": 5, //кол-во клеток поля длина
-        "width": 7, //кол-во клеток поля ширина
+        "length": 5,
+        "width": 7,
         "random_event": null
     },
     "sink_0": {
         "name": "Умывальники",
         "cost": 90000,
         "description": "Чтобы зубки были чистыми.",
-        "upgradable": true,
+        "upgradable": "true",
         "upgrade": "sink_1",
-        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "upgrade_cost": 0.5,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 1.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.1,
         "requirement": null,
         "capacity": 0,
         "category": "comfort",
-        "length": 2, //кол-во клеток поля длина
-        "width": 5, //кол-во клеток поля ширина
+        "length": 2,
+        "width": 5,
         "random_event": null
     },
     "sink_1": {
         "name": "Умывальники с горячей водой",
         "cost": 300000,
         "description": "Умываться станет намного приятнее.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 1.4, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.4,
         "requirement": "septic",
         "capacity": 0,
         "category": "comfort",
-        "length": 2, //кол-во клеток поля длина
-        "width": 6, //кол-во клеток поля ширина
+        "length": 2,
+        "width": 6,
         "random_event": null
     },
     "septic": {
         "name": "Септик",
         "cost": 500000,
         "description": "Автономная система канализации.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "comfort",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "public_shower": {
         "name": "Душевые",
         "cost": 400000,
         "description": "Ноги мыть, ноги мыть нужно каждый день!",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 1.8, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.8,
         "requirement": "septic",
         "capacity": 0,
         "category": "comfort",
-        "length": 8, //кол-во клеток поля длина
-        "width": 5, //кол-во клеток поля ширина
+        "length": 8,
+        "width": 5,
         "random_event": null
     }
 }
