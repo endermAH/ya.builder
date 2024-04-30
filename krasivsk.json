@@ -3,204 +3,204 @@
         "name": "Тропинки протоптанные",
         "cost": 8000,
         "description": "Чтобы случайно не наступить на вонючий куст.",
-        "upgradable": true,
+        "upgradable": "true",
         "upgrade": "path_2",
-        "upgrade_cost": 0.1, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "upgrade_cost": 0.1,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "path_2": {
         "name": "Тропинки с гравием",
         "cost": 25000,
         "description": "Ваши ноги скажут вам спасибо.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "pointer": {
         "name": "Указатели",
         "cost": 13000,
         "description": "Теперь все посетители будут знать где их домик, а где озеро.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "lanterns": {
         "name": "Фонари",
         "cost": 72000,
         "description": "Да будет свет!",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "lighthouse": {
         "name": "Гирлянда на доме охраны",
         "cost": 6322,
         "description": "Празднично освещает дом охраны.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": "toilet_guardian",
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "beaty_paths": {
         "name": "Камни вдоль тропинок",
         "cost": 1000,
         "description": "Очень красивые камни.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "flowers": {
         "name": "Клумбы",
         "cost": 7000,
         "description": "Красивые цветочки с редкими экземплярами.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "meridian": {
         "name": "Меридиан",
         "cost": 100000,
         "description": "Для лагеря как Эйфелева башня.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 1.8, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.8,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 1, //кол-во клеток поля длина
-        "width": 1, //кол-во клеток поля ширина
+        "length": 1,
+        "width": 1,
         "random_event": null
     },
     "flags": {
         "name": "Флажки",
         "cost": 1604,
         "description": "Очень нравятся зам. директора Ягодного.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 0, //кол-во клеток поля длина
-        "width": 0, //кол-во клеток поля ширина
+        "length": 0,
+        "width": 0,
         "random_event": null
     },
     "swing": {
         "name": "Качели",
         "cost": 50000,
         "description": "Не эмоциональные, но тоже ничего.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 0.5, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 0.5,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 1, //кол-во клеток поля длина
-        "width": 3, //кол-во клеток поля ширина
+        "length": 1,
+        "width": 3,
         "random_event": null
     },
     "hammock": {
         "name": "Гамаки",
         "cost": 50000,
         "description": "Приятно лежать и мечтать. При установке ни одно дерево не пострадало.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": null, // нельзя снести
+        "remove_cost": null,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 1, //кол-во клеток поля длина
-        "width": 3, //кол-во клеток поля ширина
+        "length": 1,
+        "width": 3,
         "random_event": null
     },
     "gazebos": {
         "name": "Беседка",
         "cost": 700000,
         "description": "Можно вкусно поесть и посидеть с друзьями.",
-        "upgradable": false,
+        "upgradable": "false",
         "upgrade": null,
         "upgrade_cost": null,
         "build_duration": 1860,
         "rent": 0,
-        "remove_cost": 1.3, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "remove_cost": 1.3,
         "requirement": null,
         "capacity": 0,
         "category": "krasivsk",
-        "length": 4, //кол-во клеток поля длина
-        "width": 3, //кол-во клеток поля ширина
+        "length": 4,
+        "width": 3,
         "random_event": null
     }
 }
