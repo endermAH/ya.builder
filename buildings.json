@@ -133,7 +133,7 @@
         "category": "living",
         "length": 45,
         "width": 30,
-        "random_event": null
+        "random_event": 103
     },
     "hostel": {                                                                                 
         "name": "Хостел",
