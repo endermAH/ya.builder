@@ -1,0 +1,189 @@
+{
+    "zabor_0": {
+        "name": "Деревянный забор",
+        "cost": 7000,
+        "description": "Палки из дерева.",
+        "upgradable": true,
+        "upgrade": "zabor_1",
+        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 120,
+        "rent": 0,
+        "remove_cost": 1.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "zabor_1": {
+        "name": "Красивый деревянный забор",
+        "cost": 25000,
+        "description": "Красивые доски из дерева.",
+        "upgradable": true,
+        "upgrade": "zabor_2",
+        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 325,
+        "rent": 0,
+        "remove_cost": 1.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "zabor_2": {
+        "name": "Металлический забор",
+        "cost": 100000,
+        "description": "Забор, который действительно защитит от непрошенных гостей.",
+        "upgradable": true,
+        "upgrade": "zabor_3",
+        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 325,
+        "rent": 0,
+        "remove_cost": 1.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "zabor_3": {
+        "name": "Забор с приколом",
+        "cost": 1000000,
+        "description": "Не только защитит, но и устроит прикол.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 2.6, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "small_guardian": {
+        "name": "Будка охраны",
+        "cost": 60000,
+        "description": "В комплекте 1 охранник.",
+        "upgradable": true,
+        "upgrade": "big_guardian",
+        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 325,
+        "rent": 0,
+        "remove_cost": 1.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "security",
+        "length": 5, //кол-во клеток поля длина
+        "width": 4, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "big_guardian": {
+        "name": "Домик охраны",
+        "cost": 150000,
+        "description": "В комплекте 1 довольный охранник. Теперь пропустит вас с улыбкой на лице.",
+        "upgradable": true,
+        "upgrade": "toilet_guardian",
+        "upgrade_cost": 0.5, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 1.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "security",
+        "length": 7, //кол-во клеток поля длина
+        "width": 5, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "toilet_guardian": {
+        "name": "Домик охраны с удобствами",
+        "cost": 4000000,
+        "description": "В комплекте 1 ОЧЕНЬ довольный охранник. Не оставляет место службы.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 10.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": "septic",
+        "capacity": 0,
+        "category": "security",
+        "length": 8, //кол-во клеток поля длина
+        "width": 6, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "giga_boy": {
+        "name": "Собака",
+        "cost": 1337,
+        "description": "Очень хороший мальчик.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 10,
+        "rent": 0,
+        "remove_cost": 100000000.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": ["big_guardian","toilet_guardian"],
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "cameras": {
+        "name": "Камеры",
+        "cost": 600000,
+        "description": "Улыбнитесь, вас снимают. Большой охранник is watching you.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 1860,
+        "rent": 0,
+        "remove_cost": null, // Нельзя продать
+        "requirement": "toilet_guardian",
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "doctor": {
+        "name": "Дом врача",
+        "cost": 500000,
+        "description": "Даст зеленкой и намажет активированного угля.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 1.4, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": "septic",
+        "capacity": 0,
+        "category": "security",
+        "length": 7, //кол-во клеток поля длина
+        "width": 5, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "fire_security": {
+        "name": "Пожарная сигнализация",
+        "cost": 66666,
+        "description": "Чтобы ТОЧНО ничего не сгорело.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 325,
+        "rent": 0,
+        "remove_cost": null, // Нельзя продать
+        "requirement": "small_guardian",
+        "capacity": 0,
+        "category": "security",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "road_1": {
+        "name": "Грунтовая дорога до лагеря",
+        "cost": 20000,
+        "description": "Лагерь в лесу сложно найти, но с появлением дороги всё ТОЧНО изменится.",
+        "upgradable": true,
+        "upgrade": "road_2",
+        "upgrade_cost": 0.3, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 325,
+        "rent": 0,
+        "remove_cost": null, // нельзя снести
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "road_2": {
+        "name": "Асфальтовая дорога до лагеря",
+        "cost": 150000,
+        "description": "Новейшая технология укладки дорог позволит проехать любой машине.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": null, // нельзя снести
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "fireplace": {
+        "name": "Костровое",
+        "cost": 10000,
+        "description": "Можно посидеть холодной ночью и поиграть на гитаре.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 120,
+        "rent": 0,
+        "remove_cost": 1.5, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 3, //кол-во клеток поля длина
+        "width": 3, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "pier": {
+        "name": "Пирс",
+        "cost": 123456,
+        "description": "Самое любимое место в Ягодном.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 3.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 15, //кол-во клеток поля длина
+        "width": 3, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "boats": {
+        "name": "Лодочки",
+        "cost": 300000,
+        "description": "Для приятных прогулок по озеру.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": null, // нельзя снести
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "club": {
+        "name": "Клуб",
+        "cost": 270000,
+        "description": "Клуб для посиделок, настольных игр и дискотек.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 2.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 15, //кол-во клеток поля длина
+        "width": 11, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "scene": {
+        "name": "Сцена",
+        "cost": 500000,
+        "description": "На других посмотреть и себя показать.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 1.5, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 13, //кол-во клеток поля длина
+        "width": 10, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "canteen": {
+        "name": "Столовая",
+        "cost": 1000000,
+        "description": "Место силы в прямом смысле этого слова.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 1860,
+        "rent": 0,
+        "remove_cost": 4.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": "septic",
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 17, //кол-во клеток поля длина
+        "width": 25, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "way_down": {
+        "name": "Спуск в воду рядом с пирсом",
+        "cost": 234567,
+        "description": "Для осторожных пловцов.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": null, // нельзя снести
+        "requirement": "pier",
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "sport": {
+        "name": "Спортивные площадки",
+        "cost": 1500000,
+        "description": "Спорт, спорт - новое движение, путь самовыражения, молодежное течение.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 1860,
+        "rent": 0,
+        "remove_cost": 1.8, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 70, //кол-во клеток поля длина
+        "width": 50, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "bathhouse": {
+        "name": "Баня",
+        "cost": 1200000,
+        "description": "Банька, парилка для полного расколбаса.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 1860,
+        "rent": 0,
+        "remove_cost": 4.1, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": "septic",
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 9, //кол-во клеток поля длина
+        "width": 8, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "coaching_house": {
+        "name": "Тренерский домик",
+        "cost": 900000,
+        "description": "В тренерском домике будут жить тренера и организаторы.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 1860,
+        "rent": 0,
+        "remove_cost": 2.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": "septic",
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 7, //кол-во клеток поля длина
+        "width": 7, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "inventory": {
+        "name": "Спортивный инвентарь",
+        "cost": 90000,
+        "description": "Мячи, ракетки, скакалки и куча другого инвентаря в комплекте. Забирать в тренерском!",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 325,
+        "rent": 0,
+        "remove_cost": 2.0, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": "coaching_house",
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "bicycle": {
+        "name": "Велосклад",
+        "cost": 300000,
+        "description": "Велосклад с новенькими велосипедами. Теперь можно прокатиться вокруг озера.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 1.5, // коэффициент. формула - "remove_cost" = Х * "cost"
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 10, //кол-во клеток поля длина
+        "width": 7, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "wifi_1": {
+        "name": "Wi-Fi в хостеле",
+        "cost": 3000000,
+        "description": "Беспроводной интернет в хостеле, чтобы написать маме, как вкусно вы покушали.",
+        "upgradable": true,
+        "upgrade": "wifi_2",
+        "upgrade_cost": 0, // коэффициент. формула - "upgrade_cost" = "cost" здания из "upgrade" + X * "remove_cost"
+        "build_duration": 1860,
+        "rent": 0,
+        "remove_cost": null, // нельзя снести
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    },
+    "wifi_2": {
+        "name": "Wi-Fi по всему лагерю",
+        "cost": 19216801,
+        "description": "Верх технологий! Больше никакого социального детокса.",
+        "upgradable": false,
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 2920,
+        "rent": 0,
+        "remove_cost": null, // нельзя снести
+        "requirement": null,
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 0, //кол-во клеток поля длина
+        "width": 0, //кол-во клеток поля ширина
+        "random_event": null
+    }
+}
