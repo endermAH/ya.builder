@@ -82,7 +82,7 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 102
     },
     "club": {
         "name": "Клуб",
@@ -150,7 +150,7 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 102
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -184,7 +184,7 @@
         "category": "infrastructure",
         "length": 9,
         "width": 8,
-        "random_event": null
+        "random_event": 102
     },
     "coaching_house": {
         "name": "Тренерский домик",
