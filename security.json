@@ -13,7 +13,7 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 102
     },
     "zabor_1": {
         "name": "Красивый деревянный забор",
@@ -81,7 +81,7 @@
         "category": "security",
         "length": 5,
         "width": 4,
-        "random_event": null
+        "random_event": 102
     },
     "big_guardian": {
         "name": "Домик охраны",
@@ -149,7 +149,7 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 102
     },
     "doctor": {
         "name": "Дом врача",
