@@ -286,5 +286,23 @@
         "width": 0,
         "random_event": 106,
         "utility_description": "Значительно увеличивает популярность"
+    },
+    "admin_house": {
+        "name": "Домик для администрации “Ягодного”",
+        "cost": 160000,
+        "description": "Ура! Теперь администрации Ягодного будет где жить!",
+        "upgradable": "false",
+        "upgrade": null,
+        "upgrade_cost": null,
+        "build_duration": 1111,
+        "rent": 0,
+        "remove_cost": 4,
+        "requirement": "septic",
+        "capacity": 0,
+        "category": "infrastructure",
+        "length": 10,
+        "width": 5,
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     }
 }
