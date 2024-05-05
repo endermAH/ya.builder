@@ -14,10 +14,11 @@
         "category": "comfort",
         "length": 1,
         "width": 1,
-        "random_event": null
+        "random_event": 104,
+        "utility_description": "Уменьшает популярность."
     },
     "hole": {
-        "name": "Яма",
+        "name": "Туалетная яма",
         "cost": 4000,
         "description": "Внимательнее смотрите под ноги.",
         "upgradable": "true",
@@ -31,7 +32,8 @@
         "category": "comfort",
         "length": 2,
         "width": 1,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность."
     },
     "rustic_toilet": {
         "name": "Деревенский туалет",
@@ -48,7 +50,8 @@
         "category": "comfort",
         "length": 2,
         "width": 2,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность."
     },
     "sebach": {
         "name": "Себач",
@@ -65,7 +68,8 @@
         "category": "comfort",
         "length": 2,
         "width": 4,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность."
     },
     "public_toilet": {
         "name": "Общий туалет",
@@ -82,7 +86,8 @@
         "category": "comfort",
         "length": 5,
         "width": 7,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность."
     },
     "sink_0": {
         "name": "Умывальники",
@@ -99,7 +104,8 @@
         "category": "comfort",
         "length": 2,
         "width": 5,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность."
     },
     "sink_1": {
         "name": "Умывальники с горячей водой",
@@ -116,7 +122,8 @@
         "category": "comfort",
         "length": 2,
         "width": 6,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность."
     },
     "septic": {
         "name": "Септик",
@@ -133,7 +140,8 @@
         "category": "comfort",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Без него нельзя построить объекты с канализацией."
     },
     "public_shower": {
         "name": "Душевые",
@@ -150,6 +158,7 @@
         "category": "comfort",
         "length": 8,
         "width": 5,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность."
     }
 }
