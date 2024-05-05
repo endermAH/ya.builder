@@ -14,7 +14,8 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": 102
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     },
     "zabor_1": {
         "name": "Красивый деревянный забор",
@@ -31,7 +32,8 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     },
     "zabor_2": {
         "name": "Металлический забор",
@@ -48,7 +50,8 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     },
     "zabor_3": {
         "name": "Забор с приколом",
@@ -65,7 +68,8 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз и повышает безопасность"
     },
     "small_guardian": {
         "name": "Будка охраны",
@@ -82,7 +86,8 @@
         "category": "security",
         "length": 5,
         "width": 4,
-        "random_event": 102
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     },
     "big_guardian": {
         "name": "Домик охраны",
@@ -99,7 +104,8 @@
         "category": "security",
         "length": 7,
         "width": 5,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     },
     "toilet_guardian": {
         "name": "Домик охраны с удобствами",
@@ -116,7 +122,8 @@
         "category": "security",
         "length": 8,
         "width": 6,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Значительно повышает безопасность"
     },
     "giga_boy": {
         "name": "Собака",
@@ -133,7 +140,8 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз и повышает безопасность"
     },
     "cameras": {
         "name": "Камеры",
@@ -150,7 +158,8 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": 102
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     },
     "doctor": {
         "name": "Дом врача",
@@ -167,7 +176,8 @@
         "category": "security",
         "length": 7,
         "width": 5,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     },
     "fire_security": {
         "name": "Пожарная сигнализация",
@@ -184,6 +194,7 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": null,
+        "utility_description": "Повышает безопасность"
     }
 }
