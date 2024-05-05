@@ -14,7 +14,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "path_2": {
         "name": "Тропинки с гравием",
@@ -31,7 +32,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "pointer": {
         "name": "Указатели",
@@ -48,7 +50,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "lanterns": {
         "name": "Фонари",
@@ -65,7 +68,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "lighthouse": {
         "name": "Гирлянда на доме охраны",
@@ -82,7 +86,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "beaty_paths": {
         "name": "Камни вдоль тропинок",
@@ -99,7 +104,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "flowers": {
         "name": "Клумбы",
@@ -116,7 +122,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": 102
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "meridian": {
         "name": "Меридиан",
@@ -133,7 +140,8 @@
         "category": "krasivsk",
         "length": 1,
         "width": 1,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "flags": {
         "name": "Флажки",
@@ -150,7 +158,8 @@
         "category": "krasivsk",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 107,
+        "utility_description": "Радует глаз"
     },
     "swing": {
         "name": "Качели",
@@ -167,7 +176,8 @@
         "category": "krasivsk",
         "length": 1,
         "width": 3,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "hammock": {
         "name": "Гамаки",
@@ -184,7 +194,8 @@
         "category": "krasivsk",
         "length": 1,
         "width": 3,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "gazebos": {
         "name": "Беседка",
@@ -201,6 +212,7 @@
         "category": "krasivsk",
         "length": 4,
         "width": 3,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность"
     }
 }
