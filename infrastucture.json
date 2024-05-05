@@ -14,7 +14,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "road_2": {
         "name": "Асфальтовая дорога до лагеря",
@@ -31,7 +32,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность"
     },
     "fireplace": {
         "name": "Костровое",
@@ -48,7 +50,8 @@
         "category": "infrastructure",
         "length": 3,
         "width": 3,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность"
     },
     "pier": {
         "name": "Пирс",
@@ -65,7 +68,8 @@
         "category": "infrastructure",
         "length": 15,
         "width": 3,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность"
     },
     "boats": {
         "name": "Лодочки",
@@ -82,7 +86,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": 102
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     },
     "club": {
         "name": "Клуб",
@@ -99,7 +104,8 @@
         "category": "infrastructure",
         "length": 15,
         "width": 11,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "scene": {
         "name": "Сцена",
@@ -116,7 +122,8 @@
         "category": "infrastructure",
         "length": 13,
         "width": 10,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "canteen": {
         "name": "Столовая",
@@ -133,7 +140,8 @@
         "category": "infrastructure",
         "length": 17,
         "width": 25,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность"
     },
     "way_down": {
         "name": "Спуск в воду рядом с пирсом",
@@ -150,7 +158,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": 102
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -167,7 +176,8 @@
         "category": "infrastructure",
         "length": 70,
         "width": 50,
-        "random_event": null
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     },
     "bathhouse": {
         "name": "Баня",
@@ -184,7 +194,8 @@
         "category": "infrastructure",
         "length": 9,
         "width": 8,
-        "random_event": 102
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     },
     "coaching_house": {
         "name": "Тренерский домик",
@@ -201,7 +212,8 @@
         "category": "infrastructure",
         "length": 7,
         "width": 7,
-        "random_event": null
+        "random_event": 102,
+        "utility_description": "Понравится администрации университета"
     },
     "inventory": {
         "name": "Спортивный инвентарь",
@@ -218,7 +230,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "bicycle": {
         "name": "Велосклад",
@@ -235,7 +248,8 @@
         "category": "infrastructure",
         "length": 10,
         "width": 7,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "wifi_1": {
         "name": "Wi-Fi в хостеле",
@@ -252,7 +266,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 105,
+        "utility_description": "Незначительно увеличивает популярность"
     },
     "wifi_2": {
         "name": "Wi-Fi по всему лагерю",
@@ -269,6 +284,7 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": null
+        "random_event": 106,
+        "utility_description": "Значительно увеличивает популярность"
     }
 }
