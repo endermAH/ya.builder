@@ -15,7 +15,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "path_2": {
         "name": "Тропинки с гравием",
@@ -33,7 +34,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "pointer": {
         "name": "Указатели",
@@ -51,7 +53,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "lanterns": {
         "name": "Фонари",
@@ -69,7 +72,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "lighthouse": {
         "name": "Гирлянда на доме охраны",
@@ -87,7 +91,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "beaty_paths": {
         "name": "Камни вдоль тропинок",
@@ -105,7 +110,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "flowers": {
         "name": "Клумбы",
@@ -123,7 +129,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "meridian": {
         "name": "Меридиан",
@@ -141,7 +148,8 @@
         "length": 1,
         "width": 1,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "flags": {
         "name": "Флажки",
@@ -159,7 +167,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз"
+        "utility_description": "Радует глаз",
+        "fixed": "true"
     },
     "swing": {
         "name": "Качели",
@@ -177,7 +186,8 @@
         "length": 1,
         "width": 3,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "true"
     },
     "hammock": {
         "name": "Гамаки",
@@ -195,7 +205,8 @@
         "length": 1,
         "width": 3,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "true"
     },
     "gazebos": {
         "name": "Беседка",
@@ -213,6 +224,7 @@
         "length": 4,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность"
+        "utility_description": "Значительно увеличивает популярность",
+        "fixed": "false"
     }
 }
