@@ -15,7 +15,8 @@
         "length": 0,
         "width": 0,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "true"
     },
     "road_2": {
         "name": "Асфальтовая дорога до лагеря",
@@ -33,7 +34,8 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность"
+        "utility_description": "Значительно увеличивает популярность",
+        "fixed": "true"
     },
     "fireplace": {
         "name": "Костровое",
@@ -51,7 +53,8 @@
         "length": 3,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность"
+        "utility_description": "Значительно увеличивает популярность",
+        "fixed": "false"
     },
     "pier": {
         "name": "Пирс",
@@ -69,7 +72,8 @@
         "length": 15,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность"
+        "utility_description": "Значительно увеличивает популярность",
+        "fixed": "true"
     },
     "boats": {
         "name": "Лодочки",
@@ -87,7 +91,8 @@
         "length": 0,
         "width": 0,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "true"
     },
     "club": {
         "name": "Клуб",
@@ -105,7 +110,8 @@
         "length": 15,
         "width": 11,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "false"
     },
     "scene": {
         "name": "Сцена",
@@ -123,7 +129,8 @@
         "length": 13,
         "width": 10,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "false"
     },
     "canteen": {
         "name": "Столовая",
@@ -141,7 +148,8 @@
         "length": 17,
         "width": 25,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность"
+        "utility_description": "Значительно увеличивает популярность",
+        "fixed": "false"
     },
     "way_down": {
         "name": "Спуск в воду рядом с пирсом",
@@ -159,7 +167,8 @@
         "length": 0,
         "width": 0,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "true"
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -177,7 +186,8 @@
         "length": 70,
         "width": 50,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "false"
     },
     "bathhouse": {
         "name": "Баня",
@@ -195,7 +205,8 @@
         "length": 9,
         "width": 8,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "false"
     },
     "coaching_house": {
         "name": "Тренерский домик",
@@ -213,7 +224,8 @@
         "length": 7,
         "width": 7,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "false"
     },
     "inventory": {
         "name": "Спортивный инвентарь",
@@ -231,7 +243,8 @@
         "length": 0,
         "width": 0,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "true"
     },
     "bicycle": {
         "name": "Велосклад",
@@ -249,7 +262,8 @@
         "length": 10,
         "width": 7,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "false"
     },
     "wifi_1": {
         "name": "Wi-Fi в хостеле",
@@ -267,7 +281,8 @@
         "length": 0,
         "width": 0,
         "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность"
+        "utility_description": "Незначительно увеличивает популярность",
+        "fixed": "true"
     },
     "wifi_2": {
         "name": "Wi-Fi по всему лагерю",
@@ -285,7 +300,8 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность"
+        "utility_description": "Значительно увеличивает популярность",
+        "fixed": "true"
     },
     "admin_house": {
         "name": "Домик для администрации “Ягодного”",
@@ -303,6 +319,7 @@
         "length": 10,
         "width": 5,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "false"
     }
 }
