@@ -15,7 +15,8 @@
         "length": 0,
         "width": 0,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "true"
     },
     "zabor_1": {
         "name": "Красивый деревянный забор",
@@ -33,7 +34,8 @@
         "length": 0,
         "width": 0,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "true"
     },
     "zabor_2": {
         "name": "Металлический забор",
@@ -51,7 +53,8 @@
         "length": 0,
         "width": 0,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "true"
     },
     "zabor_3": {
         "name": "Забор с приколом",
@@ -69,7 +72,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз и повышает безопасность"
+        "utility_description": "Радует глаз и повышает безопасность",
+        "fixed": "true"
     },
     "small_guardian": {
         "name": "Будка охраны",
@@ -87,7 +91,8 @@
         "length": 5,
         "width": 4,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "false"
     },
     "big_guardian": {
         "name": "Домик охраны",
@@ -105,7 +110,8 @@
         "length": 7,
         "width": 5,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "false"
     },
     "toilet_guardian": {
         "name": "Домик охраны с удобствами",
@@ -123,7 +129,8 @@
         "length": 8,
         "width": 6,
         "random_event": null,
-        "utility_description": "Значительно повышает безопасность"
+        "utility_description": "Значительно повышает безопасность",
+        "fixed": "false"
     },
     "giga_boy": {
         "name": "Собака",
@@ -141,7 +148,8 @@
         "length": 0,
         "width": 0,
         "random_event": 107,
-        "utility_description": "Радует глаз и повышает безопасность"
+        "utility_description": "Радует глаз и повышает безопасность",
+        "fixed": "true"
     },
     "cameras": {
         "name": "Камеры",
@@ -159,7 +167,8 @@
         "length": 0,
         "width": 0,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета"
+        "utility_description": "Понравится администрации университета",
+        "fixed": "true"
     },
     "doctor": {
         "name": "Дом врача",
@@ -177,7 +186,8 @@
         "length": 7,
         "width": 5,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "false"
     },
     "fire_security": {
         "name": "Пожарная сигнализация",
@@ -195,6 +205,7 @@
         "length": 0,
         "width": 0,
         "random_event": null,
-        "utility_description": "Повышает безопасность"
+        "utility_description": "Повышает безопасность",
+        "fixed": "true"
     }
 }
