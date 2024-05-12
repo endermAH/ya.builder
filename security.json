@@ -186,7 +186,7 @@
         "length": 7,
         "width": 5,
         "random_event": null,
-        "utility_description": "Повышает безопасность",
+        "utility_description": "Может помочь в экстренных ситуациях",
         "fixed": "false"
     },
     "fire_security": {
