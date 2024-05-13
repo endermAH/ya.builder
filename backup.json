@@ -9,14 +9,12 @@
         "build_duration": 48,
         "rent": 100,
         "remove_cost": 0.9, 
-        "requirement": null,
+        "requirement": "null",
         "capacity": 1,
         "category": "living",
         "length": 1, 
         "width": 1, 
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "tent": {                                                                                 
         "name": "Палатка",
@@ -28,14 +26,12 @@
         "build_duration": 120,
         "rent": 250,
         "remove_cost": 0.9, 
-        "requirement": null,
+        "requirement": "place_for_tent",
         "capacity": 2,
         "category": "living",
         "length": 1,
         "width": 1,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "vip_tent": {                                                                                 
         "name": "VIP Палатка",
@@ -47,14 +43,12 @@
         "build_duration": 240,
         "rent": 750,
         "remove_cost": 0.9, 
-        "requirement": null,
+        "requirement": "null",
         "capacity": 5,
         "category": "living",
         "length": 2,
         "width": 2,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "slate_house": {                                                                                 
         "name": "Шиферный домик",
@@ -66,14 +60,12 @@
         "build_duration": 480,
         "rent": 2000,
         "remove_cost": 0.9, 
-        "requirement": null,
+        "requirement": "null",
         "capacity": 2,
         "category": "living",
         "length": 5,
         "width": 4,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "old_house": {                                                                                 
         "name": "Домик",
@@ -85,14 +77,12 @@
         "build_duration": 960,
         "rent": 5400,
         "remove_cost": 0.9, 
-        "requirement": null,
+        "requirement": "null",
         "capacity": 5,
         "category": "living",
         "length": 7,
         "width": 5,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "new_house": {                                                                                 
         "name": "Домик с удобствами",
@@ -109,9 +99,7 @@
         "category": "living",
         "length": 8,
         "width": 6,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "future_house": {                                                                                 
         "name": "Домик будущего",
@@ -128,17 +116,15 @@
         "category": "living",
         "length": 10,
         "width": 9,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "old_hostel": {                                                                                 
         "name": "Корпуса",
         "cost": 600000,
         "description": "Каменные джунгли в Ягодном. Надежное здание на века.", 
         "upgradable": false,
-        "upgrade": null,
-        "upgrade_cost": null,
+        "upgrade": "null",
+        "upgrade_cost": "null",
         "build_duration": 2920,
         "rent": 70000,
         "remove_cost": 3.0, 
@@ -147,9 +133,7 @@
         "category": "living",
         "length": 45,
         "width": 30,
-        "random_event": 103,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "hostel": {                                                                                 
         "name": "Хостел",
@@ -166,17 +150,15 @@
         "category": "living",
         "length": 25,
         "width": 45,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "rektorskiy": {                                                                                 
         "name": "Ректорский дом",
         "cost": 500000,
         "description": "Дом для важных персон.", 
         "upgradable": false,
-        "upgrade": null,
-        "upgrade_cost": null,
+        "upgrade": "null",
+        "upgrade_cost": "null",
         "build_duration": 2920,
         "rent": 21000,
         "remove_cost": 0.9, 
@@ -185,17 +167,15 @@
         "category": "living",
         "length": 13,
         "width": 10,
-        "random_event": 102,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     },
     "new_hostel": {                                                                                 
         "name": "2-х этажный хостел",
         "cost": 6000000,
         "description": "Ещё больше и ещё теплее.", 
         "upgradable": false,
-        "upgrade": null,
-        "upgrade_cost": null,
+        "upgrade": "null",
+        "upgrade_cost": "null",
         "build_duration": 2920,
         "rent": 300000,
         "remove_cost": 3.9, 
@@ -204,8 +184,6 @@
         "category": "living",
         "length": 25,
         "width": 45,
-        "random_event": null,
-        "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
-        "fixed": "false"
+        "random_event": "null"
     }
 }
