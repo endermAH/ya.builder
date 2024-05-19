@@ -16,7 +16,8 @@
         "width": 0,
         "random_event": 105,
         "utility_description": "Незначительно увеличивает популярность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "road_2": {
         "name": "Асфальтовая дорога до лагеря",
@@ -35,7 +36,8 @@
         "width": 0,
         "random_event": 106,
         "utility_description": "Значительно увеличивает популярность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "fireplace": {
         "name": "Костровое",
@@ -54,7 +56,8 @@
         "width": 3,
         "random_event": 106,
         "utility_description": "Значительно увеличивает популярность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "pier": {
         "name": "Пирс",
@@ -73,7 +76,8 @@
         "width": 3,
         "random_event": 106,
         "utility_description": "Значительно увеличивает популярность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "boats": {
         "name": "Лодочки",
@@ -92,7 +96,8 @@
         "width": 0,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "club": {
         "name": "Клуб",
@@ -111,7 +116,8 @@
         "width": 11,
         "random_event": 105,
         "utility_description": "Незначительно увеличивает популярность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "scene": {
         "name": "Сцена",
@@ -130,7 +136,8 @@
         "width": 10,
         "random_event": 105,
         "utility_description": "Незначительно увеличивает популярность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "canteen": {
         "name": "Столовая",
@@ -149,7 +156,8 @@
         "width": 25,
         "random_event": 106,
         "utility_description": "Значительно увеличивает популярность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "way_down": {
         "name": "Спуск в воду рядом с пирсом",
@@ -168,7 +176,8 @@
         "width": 0,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -187,7 +196,8 @@
         "width": 50,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "bathhouse": {
         "name": "Баня",
@@ -206,7 +216,8 @@
         "width": 8,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "coaching_house": {
         "name": "Тренерский домик",
@@ -225,7 +236,8 @@
         "width": 7,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "inventory": {
         "name": "Спортивный инвентарь",
@@ -244,7 +256,8 @@
         "width": 0,
         "random_event": 105,
         "utility_description": "Незначительно увеличивает популярность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "bicycle": {
         "name": "Велосклад",
@@ -263,7 +276,8 @@
         "width": 7,
         "random_event": 105,
         "utility_description": "Незначительно увеличивает популярность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "wifi_1": {
         "name": "Wi-Fi в хостеле",
@@ -282,7 +296,8 @@
         "width": 0,
         "random_event": 105,
         "utility_description": "Незначительно увеличивает популярность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "wifi_2": {
         "name": "Wi-Fi по всему лагерю",
@@ -301,7 +316,8 @@
         "width": 0,
         "random_event": 106,
         "utility_description": "Значительно увеличивает популярность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "admin_house": {
         "name": "Домик для администрации “Ягодного”",
@@ -320,6 +336,7 @@
         "width": 5,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     }
 }
