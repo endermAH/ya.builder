@@ -194,8 +194,8 @@
         "category": "krasivsk",
         "length": 1,
         "width": 3,
-        "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "true",
         "debuff": "null"
     },
@@ -214,8 +214,8 @@
         "category": "krasivsk",
         "length": 1,
         "width": 3,
-        "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "true",
         "debuff": "null"
     },
@@ -235,7 +235,7 @@
         "length": 4,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность",
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "false",
         "debuff": "null"
     }
