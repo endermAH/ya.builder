@@ -75,7 +75,7 @@
         "length": 15,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность",
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "true",
         "debuff": "null"
     },
@@ -94,8 +94,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": 102,
-        "utility_description": "Понравится администрации университета",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "true",
         "debuff": "null"
     },
@@ -174,8 +174,8 @@
         "category": "infrastructure",
         "length": 0,
         "width": 0,
-        "random_event": 102,
-        "utility_description": "Понравится администрации университета",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "true",
         "debuff": "null"
     },
@@ -319,7 +319,7 @@
         "fixed": "true",
         "debuff": "null"
     },
-    "admin_house": {
+    "admin_house": 
         "name": "Домик для администрации “Ягодного”",
         "cost": 160000,
         "description": "Ура! Теперь администрации Ягодного будет где жить!",
