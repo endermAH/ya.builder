@@ -16,7 +16,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "zabor_1": {
         "name": "Красивый деревянный забор",
@@ -35,7 +36,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "zabor_2": {
         "name": "Металлический забор",
@@ -54,7 +56,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "zabor_3": {
         "name": "Забор с приколом",
@@ -73,7 +76,8 @@
         "width": 0,
         "random_event": 107,
         "utility_description": "Радует глаз и повышает безопасность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "small_guardian": {
         "name": "Будка охраны",
@@ -92,7 +96,8 @@
         "width": 4,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "big_guardian": {
         "name": "Домик охраны",
@@ -111,7 +116,8 @@
         "width": 5,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "toilet_guardian": {
         "name": "Домик охраны с удобствами",
@@ -130,7 +136,8 @@
         "width": 6,
         "random_event": "null",
         "utility_description": "Значительно повышает безопасность",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "giga_boy": {
         "name": "Собака",
@@ -149,7 +156,8 @@
         "width": 0,
         "random_event": 107,
         "utility_description": "Радует глаз и повышает безопасность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "cameras": {
         "name": "Камеры",
@@ -168,7 +176,8 @@
         "width": 0,
         "random_event": 102,
         "utility_description": "Понравится администрации университета",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     },
     "doctor": {
         "name": "Дом врача",
@@ -187,7 +196,8 @@
         "width": 5,
         "random_event": "null",
         "utility_description": "Может помочь в экстренных ситуациях",
-        "fixed": "false"
+        "fixed": "false",
+        "debuff": "null"
     },
     "fire_security": {
         "name": "Пожарная сигнализация",
@@ -206,6 +216,7 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true"
+        "fixed": "true",
+        "debuff": "null"
     }
 }
