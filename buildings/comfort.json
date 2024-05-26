@@ -114,8 +114,8 @@
         "category": "comfort",
         "length": 2,
         "width": 5,
-        "random_event": 105,
-        "utility_description": "Незначительно увеличивает популярность.",
+        "random_event": "null",
+        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
         "fixed": "false",
         "debuff": "null"
     },
@@ -134,8 +134,8 @@
         "category": "comfort",
         "length": 2,
         "width": 6,
-        "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность.",
+        "random_event": "null",
+        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
         "fixed": "false",
         "debuff": "null"
     },
@@ -174,8 +174,8 @@
         "category": "comfort",
         "length": 8,
         "width": 5,
-        "random_event": 106,
-        "utility_description": "Значительно увеличивает популярность.",
+        "random_event": "null",
+        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
         "fixed": "false",
         "debuff": "null"
     }
