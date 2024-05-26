@@ -174,7 +174,7 @@
         "category": "security",
         "length": 0,
         "width": 0,
-        "random_event": 102,
+        "random_event": "null",
         "utility_description": "Повышает безопасность",
         "fixed": "true",
         "debuff": "null"
