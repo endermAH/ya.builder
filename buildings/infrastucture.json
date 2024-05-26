@@ -319,7 +319,7 @@
         "fixed": "true",
         "debuff": "null"
     },
-    "admin_house": 
+    "admin_house": {
         "name": "Домик для администрации лагеря",
         "cost": 160000,
         "description": "Ура! Теперь администрации Ягодного будет где жить!",
