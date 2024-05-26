@@ -135,7 +135,7 @@
         "length": 8,
         "width": 6,
         "random_event": "null",
-        "utility_description": "Значительно повышает безопасность",
+        "utility_description": "Повышает безопасность",
         "fixed": "false",
         "debuff": "null"
     },
