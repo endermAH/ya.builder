@@ -194,8 +194,8 @@
         "category": "money",
         "length": 7,
         "width": 5,
-        "random_event": "null",
-        "utility_description": "Увеличивает общий доход на 1%",
+        "random_event": "102",
+        "utility_description": "Понравится администрации университета",
         "fixed": "false",
         "debuff": "null"
     },
