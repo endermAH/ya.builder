@@ -191,11 +191,11 @@
         "remove_cost": 1.4,
         "requirement": "septic",
         "capacity": 0,
-        "category": "security",
+        "category": "money",
         "length": 7,
         "width": 5,
         "random_event": "null",
-        "utility_description": "Может помочь в экстренных ситуациях",
+        "utility_description": "Увеличивает общий доход на 1%",
         "fixed": "false",
         "debuff": "null"
     },
