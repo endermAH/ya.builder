@@ -221,8 +221,8 @@
         "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
         "debuff": {
-		        "type": "daily",
-		        "count": "0.01"
+		"type": "daily",
+		"count": "0.01"
 		}
     },
     "gazebos": {
@@ -244,8 +244,8 @@
         "utility_description": "Увеличит общий доход на $count %",
         "fixed": "false",
         "debuff": {
-		        "type": "daily",
-		        "count": "0.01"
+		"type": "daily",
+		"count": "0.01"
 		}
     }
 }
