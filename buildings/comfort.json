@@ -114,10 +114,13 @@
         "category": "comfort",
         "length": 2,
         "width": 5,
-        "random_event": "null",
+        "random_event": 106,
         "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "daily",
+			"count": "0.01"
+		}
     },
     "sink_1": {
         "name": "Умывальники с горячей водой",
@@ -134,10 +137,13 @@
         "category": "comfort",
         "length": 2,
         "width": 6,
-        "random_event": "null",
+        "random_event": 106,
         "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "daily",
+			"count": "0.02"
+		}
     },
     "septic": {
         "name": "Септик",
@@ -174,9 +180,12 @@
         "category": "comfort",
         "length": 8,
         "width": 5,
-        "random_event": "null",
+        "random_event": 106,
         "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "daily",
+			"count": "0.03"
+		}
     }
 }
