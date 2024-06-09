@@ -15,7 +15,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -35,7 +35,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -55,7 +55,7 @@
         "length": 3,
         "width": 3,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -75,9 +75,12 @@
         "length": 15,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+			"type": "daily",
+			"count": "0.01"
+		}
     },
     "boats": {
         "name": "Лодочки",
@@ -95,9 +98,12 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+			"type": "daily",
+			"count": "0.01"
+		}
     },
     "club": {
         "name": "Клуб",
@@ -115,7 +121,7 @@
         "length": 15,
         "width": 11,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -135,7 +141,7 @@
         "length": 13,
         "width": 10,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -155,7 +161,7 @@
         "length": 17,
         "width": 25,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -175,9 +181,12 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+			"type": "daily",
+			"count": "0.01"
+		}
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -195,7 +204,7 @@
         "length": 70,
         "width": 50,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -215,7 +224,7 @@
         "length": 9,
         "width": 8,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -235,9 +244,12 @@
         "length": 7,
         "width": 7,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета",
+        "utility_description": "Понравится администрации университета. Увеличивает дотацию на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "dotation",
+			"count": "0.1"
+		}
     },
     "inventory": {
         "name": "Спортивный инвентарь",
@@ -255,7 +267,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -275,7 +287,7 @@
         "length": 10,
         "width": 7,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -295,7 +307,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -315,7 +327,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -335,8 +347,11 @@
         "length": 10,
         "width": 5,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета",
+        "utility_description": "Понравится администрации университета. Увеличивает дотацию на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "dotation",
+			"count": "0.1"
+		}
     }
 }
