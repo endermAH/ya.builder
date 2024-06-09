@@ -75,7 +75,7 @@
         "length": 15,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличит общий доход на $count %",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
 		"type": "daily",
@@ -98,7 +98,7 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Увеличит общий доход на $count %",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
 		"type": "daily",
@@ -181,7 +181,7 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Увеличит общий доход на $count %",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
 		"type": "daily",
@@ -244,7 +244,7 @@
         "length": 7,
         "width": 7,
         "random_event": 102,
-        "utility_description": "Увеличит дотацию университета на $count %",
+        "utility_description": "Увеличивает дотацию университета на $count %",
         "fixed": "false",
         "debuff": {
 		"type": "dotation",
@@ -347,7 +347,7 @@
         "length": 10,
         "width": 5,
         "random_event": 102,
-        "utility_description": "Увеличит дотацию университета на $count %",
+        "utility_description": "Увеличивает дотацию университета на $count %",
         "fixed": "false",
         "debuff": {
 		"type": "dotation",
