@@ -78,8 +78,8 @@
         "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
         "debuff": {
-			"type": "daily",
-			"count": "0.01"
+		"type": "daily",
+		"count": "0.01"
 		}
     },
     "boats": {
@@ -101,8 +101,8 @@
         "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
         "debuff": {
-			"type": "daily",
-			"count": "0.01"
+		"type": "daily",
+		"count": "0.01"
 		}
     },
     "club": {
@@ -184,8 +184,8 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
-			"type": "daily",
-			"count": "0.01"
+		"type": "daily",
+		"count": "0.01"
 		}
     },
     "sport": {
@@ -247,8 +247,8 @@
         "utility_description": "Понравится администрации университета. Увеличивает дотацию на $count %",
         "fixed": "false",
         "debuff": {
-			"type": "dotation",
-			"count": "0.1"
+		"type": "dotation",
+		"count": "0.1"
 		}
     },
     "inventory": {
@@ -350,8 +350,8 @@
         "utility_description": "Понравится администрации университета. Увеличивает дотацию на $count %",
         "fixed": "false",
         "debuff": {
-			"type": "dotation",
-			"count": "0.1"
+		"type": "dotation",
+		"count": "0.1"
 		}
     }
 }
