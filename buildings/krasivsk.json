@@ -195,7 +195,7 @@
         "length": 1,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличит общий доход на $count %",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
 		        "type": "daily",
@@ -218,7 +218,7 @@
         "length": 1,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличит общий доход на $count %",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
 		"type": "daily",
@@ -241,7 +241,7 @@
         "length": 4,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличит общий доход на $count %",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
         "debuff": {
 		"type": "daily",
