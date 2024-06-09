@@ -197,7 +197,10 @@
         "random_event": 102,
         "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "dotation",
+			"count": "0.2"
+		}
     },
     "new_hostel": {                                                                                 
         "name": "2-х этажный хостел",
