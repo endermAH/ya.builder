@@ -195,9 +195,12 @@
         "length": 1,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+		        "type": "daily",
+		        "count": "0.01"
+		}
     },
     "hammock": {
         "name": "Гамаки",
@@ -215,9 +218,12 @@
         "length": 1,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличит общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+		        "type": "daily",
+		        "count": "0.01"
+		}
     },
     "gazebos": {
         "name": "Беседка",
@@ -235,8 +241,11 @@
         "length": 4,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличит общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+		        "type": "daily",
+		        "count": "0.01"
+		}
     }
 }
