@@ -195,9 +195,11 @@
         "length": 7,
         "width": 5,
         "random_event": "102",
-        "utility_description": "Понравится администрации университета",
+        "utility_description": "Увеличит дотацию университета на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "dotation",
+            "count": "0.01"
     },
     "fire_security": {
         "name": "Пожарная сигнализация",

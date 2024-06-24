@@ -15,7 +15,7 @@
         "length": 1,
         "width": 1,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Вмещает $capacity отдыхающих. Снижает доход от построек рядом на $debuff %",
         "fixed": "false",
         "debuff": 0.5
     },
@@ -35,7 +35,7 @@
         "length": 2,
         "width": 1,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Вмещает $capacity отдыхающих. Снижает доход от построек рядом на $debuff %",
         "fixed": "false",
         "debuff": 0.4
     },
@@ -55,7 +55,7 @@
         "length": 2,
         "width": 2,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Вмещает $capacity отдыхающих. Снижает доход от построек рядом на $debuff %",
         "fixed": "false",
         "debuff": 0.3
     },
@@ -75,7 +75,7 @@
         "length": 2,
         "width": 4,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Вмещает $capacity отдыхающих. Снижает доход от построек рядом на $debuff %",
         "fixed": "false",
         "debuff": 0.2
     },
@@ -95,7 +95,7 @@
         "length": 5,
         "width": 7,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Вмещает $capacity отдыхающих. Снижает доход от построек рядом на $debuff %",
         "fixed": "false",
         "debuff": 0.1
     },
@@ -114,10 +114,13 @@
         "category": "comfort",
         "length": 2,
         "width": 5,
-        "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+		"type": "daily",
+		"count": "0.01"
+		}
     },
     "sink_1": {
         "name": "Умывальники с горячей водой",
@@ -134,10 +137,13 @@
         "category": "comfort",
         "length": 2,
         "width": 6,
-        "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+		"type": "daily",
+		"count": "0.02"
+		}
     },
     "septic": {
         "name": "Септик",
@@ -174,9 +180,12 @@
         "category": "comfort",
         "length": 8,
         "width": 5,
-        "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+		"type": "daily",
+		"count": "0.03"
+		}
     }
 }

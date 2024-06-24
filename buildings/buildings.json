@@ -126,11 +126,11 @@
         "upgradable": "true",
         "upgrade": "future_house", 
         "upgrade_cost": 0.8, 
-        "build_duration": 1460,
-        "rent": 15000,
+        "build_duration": 2920,
+        "rent": 40000,
         "remove_cost": 2.1, 
         "requirement": "septic",
-        "capacity": 7,
+        "capacity": 10,
         "category": "living",
         "length": 10,
         "width": 9,
@@ -197,7 +197,10 @@
         "random_event": 102,
         "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+			"type": "dotation",
+			"count": "0.2"
+		}
     },
     "new_hostel": {                                                                                 
         "name": "2-х этажный хостел",
