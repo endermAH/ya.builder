@@ -1,4 +1,3 @@
-#
 name: Create and publish a Docker image
 run-name: ${{ github.actor }} builds ya.builder from ${{ github.ref }}
 
