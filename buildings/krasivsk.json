@@ -17,7 +17,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "path_2": {
         "name": "Тропинки с гравием",
@@ -37,7 +43,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "pointer": {
         "name": "Указатели",
@@ -57,7 +69,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 2936,
+			"y": 1888
+		}
+	]
     },
     "lanterns": {
         "name": "Фонари",
@@ -77,7 +95,29 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 1000,
+			"y": 768
+		},
+		{
+			"x": 1608,
+			"y": 1660
+		},
+		{
+			"x": 2772,
+			"y": 788
+		},
+		{
+			"x": 4240,
+			"y": 1824
+		},
+		{
+			"x": 6688,
+			"y": 1792
+		}
+	]
     },
     "lighthouse": {
         "name": "Гирлянда на доме охраны",
@@ -97,7 +137,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "beaty_paths": {
         "name": "Камни вдоль тропинок",
@@ -117,7 +163,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "flowers": {
         "name": "Клумбы",
@@ -137,7 +189,50 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 2252,
+			"y": 1948
+		},
+		{
+			"x": 2316,
+			"y": 2008
+		},
+		{
+			"x": 2376,
+			"y": 1952
+		},
+		{
+			"x": 4672,
+			"y": 2168
+		},
+		{
+			"x": 4760,
+			"y": 2212
+		},
+		{
+			"x": 4844,
+			"y": 2164
+		},
+		{
+			"x": 6856,
+			"y": 1216
+		},
+		{
+			"x": 6944,
+			"y": 1180
+		},
+		{
+			"x": 6960,
+			"y": 1240
+		},
+		{
+			"x": 8796,
+			"y": 1604
+		}
+	]
+    },
     },
     "meridian": {
         "name": "Меридиан",
@@ -157,7 +252,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 7174,
+			"y": 1758
+		}
+	]
     },
     "flags": {
         "name": "Флажки",
@@ -177,7 +278,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "swing": {
         "name": "Качели",
@@ -200,7 +307,16 @@
         "debuff": {
 		        "type": "daily",
 		        "count": "0.01"
-		}
+		},
+	"fixed_objects": [ 
+		{
+			"x": 664,
+			"y": 2640
+		},
+			"x": 896,
+			"y": 2712
+		},
+	]
     },
     "hammock": {
         "name": "Гамаки",
@@ -223,7 +339,16 @@
         "debuff": {
 		"type": "daily",
 		"count": "0.01"
-		}
+		},
+	"fixed_objects": [ 
+		{
+			"x": 664,
+			"y": 2640
+		},
+			"x": 896,
+			"y": 2712
+		},
+	]
     },
     "gazebos": {
         "name": "Беседка",
