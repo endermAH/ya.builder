@@ -17,7 +17,21 @@
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 7584,
+			"y": 0
+		},
+		{
+			"x": 224,
+			"y": 0
+		},
+		{
+			"x": 9480,
+			"y": 2048
+		}
+	]
     },
     "road_2": {
         "name": "Асфальтовая дорога до лагеря",
@@ -37,7 +51,13 @@
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"fixed_objects": [ 
+		{
+			"x": 7584,
+			"y": 0
+		}
+	]
     },
     "fireplace": {
         "name": "Костровое",
@@ -80,7 +100,17 @@
         "debuff": {
 		"type": "daily",
 		"count": "0.01"
+		},
+	"fixed_objects": [ 
+		{
+			"x": 3904,
+			"y": 3296
+		},
+		{
+			"x": 4896,
+			"y": 3296
 		}
+	]
     },
     "boats": {
         "name": "Лодочки",
@@ -103,7 +133,21 @@
         "debuff": {
 		"type": "daily",
 		"count": "0.01"
+		},
+	"fixed_objects": [ 
+		{
+			"x": 5248,
+			"y": 3272
+		},
+		{
+			"x": 5292,
+			"y": 3344
+		},
+		{
+			"x": 5392,
+			"y": 3280
 		}
+	]
     },
     "club": {
         "name": "Клуб",
@@ -186,7 +230,13 @@
         "debuff": {
 		"type": "daily",
 		"count": "0.01"
+		},
+	"fixed_objects": [ 
+		{
+			"x": 5056,
+			"y": 3408
 		}
+	]
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -269,7 +319,14 @@
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"invisible": "true",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "bicycle": {
         "name": "Велосклад",
@@ -309,7 +366,14 @@
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"invisible": "true",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "wifi_2": {
         "name": "Wi-Fi по всему лагерю",
@@ -329,7 +393,14 @@
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+	"invisible": "true",
+	"fixed_objects": [ 
+		{
+			"x": 0,
+			"y": 0
+		}
+	]
     },
     "admin_house": {
         "name": "Домик для администрации лагеря",
