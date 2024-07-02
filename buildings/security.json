@@ -17,7 +17,13 @@
         "random_event": "null",
         "utility_description": "Повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "fixed_objects": [ 
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "zabor_1": {
         "name": "Красивый деревянный забор",
@@ -37,7 +43,13 @@
         "random_event": "null",
         "utility_description": "Повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "fixed_objects": [ 
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "zabor_2": {
         "name": "Металлический забор",
@@ -57,7 +69,13 @@
         "random_event": "null",
         "utility_description": "Повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "fixed_objects": [ 
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "zabor_3": {
         "name": "Забор с приколом",
@@ -77,7 +95,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз и повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "fixed_objects": [ 
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "small_guardian": {
         "name": "Будка охраны",
@@ -157,7 +181,13 @@
         "random_event": 107,
         "utility_description": "Радует глаз и повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "fixed_objects": [ 
+            {
+                "x": 7684,
+                "y": 544
+            }
+        ]
     },
     "cameras": {
         "name": "Камеры",
@@ -177,7 +207,14 @@
         "random_event": "null",
         "utility_description": "Повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "invisible": "true",
+        "fixed_objects": [ 
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "doctor": {
         "name": "Дом врача",
@@ -219,6 +256,13 @@
         "random_event": "null",
         "utility_description": "Повышает безопасность",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": "null",
+        "invisible": "true",
+        "fixed_objects": [ 
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     }
 }
