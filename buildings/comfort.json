@@ -8,7 +8,7 @@
         "upgrade_cost": 0.5,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "null",
         "capacity": 4,
         "category": "comfort",
@@ -28,7 +28,7 @@
         "upgrade_cost": 0.5,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "null",
         "capacity": 8,
         "category": "comfort",
@@ -65,7 +65,7 @@
         "description": "Все туда ходят, но никто не признаётся.",
         "upgradable": "true",
         "upgrade": "public_toilet",
-        "upgrade_cost": 1.0,
+        "upgrade_cost": 1,
         "build_duration": 325,
         "rent": 0,
         "remove_cost": 1.3,
@@ -118,9 +118,9 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
         "debuff": {
-		"type": "daily",
-		"count": "0.01"
-		}
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "sink_1": {
         "name": "Умывальники с горячей водой",
@@ -141,9 +141,9 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
         "debuff": {
-		"type": "daily",
-		"count": "0.02"
-		}
+            "type": "daily",
+            "count": "0.02"
+        }
     },
     "septic": {
         "name": "Септик",
@@ -164,20 +164,20 @@
         "utility_description": "Без него нельзя построить объекты с канализацией.",
         "fixed": "true",
         "debuff": "null",
-	"fixed_objects": [ 
-		{
-			"x": 3163,
-			"y": 1411
-		},
-		{
-			"x": 4831,
-			"y": 1843
-		},
-		{
-			"x": 6404,
-			"y": 1444
-		}
-	]
+        "fixed_objects": [
+            {
+                "x": 3163,
+                "y": 1411
+            },
+            {
+                "x": 4831,
+                "y": 1843
+            },
+            {
+                "x": 6404,
+                "y": 1444
+            }
+        ]
     },
     "public_shower": {
         "name": "Душевые",
@@ -198,8 +198,8 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
         "debuff": {
-		"type": "daily",
-		"count": "0.03"
-		}
+            "type": "daily",
+            "count": "0.03"
+        }
     }
 }

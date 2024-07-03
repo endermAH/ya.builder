@@ -18,20 +18,20 @@
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null",
-	"fixed_objects": [ 
-		{
-			"x": 7584,
-			"y": 0
-		},
-		{
-			"x": 224,
-			"y": 0
-		},
-		{
-			"x": 9480,
-			"y": 2048
-		}
-	]
+        "fixed_objects": [
+            {
+                "x": 7584,
+                "y": 0
+            },
+            {
+                "x": 224,
+                "y": 0
+            },
+            {
+                "x": 9480,
+                "y": 2048
+            }
+        ]
     },
     "road_2": {
         "name": "Асфальтовая дорога до лагеря",
@@ -52,12 +52,12 @@
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null",
-	"fixed_objects": [ 
-		{
-			"x": 7584,
-			"y": 0
-		}
-	]
+        "fixed_objects": [
+            {
+                "x": 7584,
+                "y": 0
+            }
+        ]
     },
     "fireplace": {
         "name": "Костровое",
@@ -88,7 +88,7 @@
         "upgrade_cost": "null",
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 3.0,
+        "remove_cost": 3,
         "requirement": "null",
         "capacity": 0,
         "category": "money",
@@ -98,19 +98,19 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
-		"type": "daily",
-		"count": "0.01"
-		},
-	"fixed_objects": [ 
-		{
-			"x": 3904,
-			"y": 3296
-		},
-		{
-			"x": 4896,
-			"y": 3296
-		}
-	]
+            "type": "daily",
+            "count": "0.01"
+        },
+        "fixed_objects": [
+            {
+                "x": 3904,
+                "y": 3296
+            },
+            {
+                "x": 4896,
+                "y": 3296
+            }
+        ]
     },
     "boats": {
         "name": "Лодочки",
@@ -131,23 +131,23 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
-		"type": "daily",
-		"count": "0.01"
-		},
-	"fixed_objects": [ 
-		{
-			"x": 5248,
-			"y": 3272
-		},
-		{
-			"x": 5292,
-			"y": 3344
-		},
-		{
-			"x": 5392,
-			"y": 3280
-		}
-	]
+            "type": "daily",
+            "count": "0.01"
+        },
+        "fixed_objects": [
+            {
+                "x": 5248,
+                "y": 3272
+            },
+            {
+                "x": 5292,
+                "y": 3344
+            },
+            {
+                "x": 5392,
+                "y": 3280
+            }
+        ]
     },
     "club": {
         "name": "Клуб",
@@ -158,7 +158,7 @@
         "upgrade_cost": "null",
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "null",
         "capacity": 0,
         "category": "infrastructure",
@@ -228,15 +228,15 @@
         "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
         "debuff": {
-		"type": "daily",
-		"count": "0.01"
-		},
-	"fixed_objects": [ 
-		{
-			"x": 5056,
-			"y": 3408
-		}
-	]
+            "type": "daily",
+            "count": "0.01"
+        },
+        "fixed_objects": [
+            {
+                "x": 5056,
+                "y": 3408
+            }
+        ]
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -287,7 +287,7 @@
         "upgrade_cost": "null",
         "build_duration": 1860,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "septic",
         "capacity": 0,
         "category": "money",
@@ -297,9 +297,9 @@
         "utility_description": "Увеличивает дотацию университета на $count %",
         "fixed": "false",
         "debuff": {
-		"type": "dotation",
-		"count": "0.1"
-		}
+            "type": "dotation",
+            "count": "0.1"
+        }
     },
     "inventory": {
         "name": "Спортивный инвентарь",
@@ -310,7 +310,7 @@
         "upgrade_cost": "null",
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "coaching_house",
         "capacity": 0,
         "category": "infrastructure",
@@ -320,13 +320,13 @@
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null",
-	"invisible": "true",
-	"fixed_objects": [ 
-		{
-			"x": 0,
-			"y": 0
-		}
-	]
+        "invisible": "true",
+        "fixed_objects": [
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "bicycle": {
         "name": "Велосклад",
@@ -367,13 +367,13 @@
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null",
-	"invisible": "true",
-	"fixed_objects": [ 
-		{
-			"x": 0,
-			"y": 0
-		}
-	]
+        "invisible": "true",
+        "fixed_objects": [
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "wifi_2": {
         "name": "Wi-Fi по всему лагерю",
@@ -394,13 +394,13 @@
         "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null",
-	"invisible": "true",
-	"fixed_objects": [ 
-		{
-			"x": 0,
-			"y": 0
-		}
-	]
+        "invisible": "true",
+        "fixed_objects": [
+            {
+                "x": 0,
+                "y": 0
+            }
+        ]
     },
     "admin_house": {
         "name": "Домик для администрации лагеря",
@@ -421,8 +421,8 @@
         "utility_description": "Увеличивает дотацию университета на $count %",
         "fixed": "false",
         "debuff": {
-		"type": "dotation",
-		"count": "0.1"
-		}
+            "type": "dotation",
+            "count": "0.1"
+        }
     }
 }

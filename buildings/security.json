@@ -237,6 +237,7 @@
         "debuff": {
             "type": "dotation",
             "count": "0.01"
+        }
     },
     "fire_security": {
         "name": "Пожарная сигнализация",
