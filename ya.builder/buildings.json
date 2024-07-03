@@ -8,14 +8,14 @@
         "upgrade_cost": 0.5,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "null",
         "capacity": 4,
         "category": "comfort",
         "length": 1,
         "width": 1,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Обслуживает $capacity отдыхающих. Снижает доход от построек рядом на $debuff%",
         "fixed": "false",
         "debuff": 0.5
     },
@@ -28,14 +28,14 @@
         "upgrade_cost": 0.5,
         "build_duration": 120,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "null",
         "capacity": 8,
         "category": "comfort",
         "length": 2,
         "width": 1,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Обслуживает $capacity отдыхающих. Снижает доход от построек рядом на $debuff%",
         "fixed": "false",
         "debuff": 0.4
     },
@@ -55,7 +55,7 @@
         "length": 2,
         "width": 2,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Обслуживает $capacity отдыхающих. Снижает доход от построек рядом на $debuff%",
         "fixed": "false",
         "debuff": 0.3
     },
@@ -65,7 +65,7 @@
         "description": "Все туда ходят, но никто не признаётся.",
         "upgradable": "true",
         "upgrade": "public_toilet",
-        "upgrade_cost": 1.0,
+        "upgrade_cost": 1,
         "build_duration": 325,
         "rent": 0,
         "remove_cost": 1.3,
@@ -75,7 +75,7 @@
         "length": 2,
         "width": 4,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Обслуживает $capacity отдыхающих. Снижает доход от построек рядом на $debuff%",
         "fixed": "false",
         "debuff": 0.2
     },
@@ -95,7 +95,7 @@
         "length": 5,
         "width": 7,
         "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "utility_description": "Обслуживает $capacity отдыхающих. Снижает доход от построек рядом на $debuff%",
         "fixed": "false",
         "debuff": 0.1
     },
@@ -114,10 +114,13 @@
         "category": "comfort",
         "length": 2,
         "width": 5,
-        "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "sink_1": {
         "name": "Умывальники с горячей водой",
@@ -134,10 +137,13 @@
         "category": "comfort",
         "length": 2,
         "width": 6,
-        "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.02"
+        }
     },
     "septic": {
         "name": "Септик",
@@ -174,42 +180,44 @@
         "category": "comfort",
         "length": 8,
         "width": 5,
-        "random_event": "null",
-        "utility_description": "Стоит построить при увеличении кол-ва жилых объектов.",
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
-    }
-,
+        "debuff": {
+            "type": "daily",
+            "count": "0.03"
+        }
+    },
     "place_for_tent": {
         "name": "Место под палатку",
         "cost": 2000,
         "description": "Кусок земли, на котором приезжающие в лагерь могут разместить свою палатку.",
         "upgradable": "true",
         "upgrade": "tent",
-        "upgrade_cost": 0.8, 
+        "upgrade_cost": 0.8,
         "build_duration": 48,
         "rent": 100,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "null",
         "capacity": 1,
         "category": "living",
-        "length": 1, 
-        "width": 1, 
+        "length": 1,
+        "width": 1,
         "random_event": "null",
         "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
         "fixed": "false",
         "debuff": "null"
     },
-    "tent": {                                                                                 
+    "tent": {
         "name": "Палатка",
         "cost": 5000,
-        "description": "Обычная, ничем не примечательная, палатка.", 
+        "description": "Обычная, ничем не примечательная, палатка.",
         "upgradable": "true",
         "upgrade": "vip_tent",
-        "upgrade_cost": 0.8, 
+        "upgrade_cost": 0.8,
         "build_duration": 120,
         "rent": 250,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "null",
         "capacity": 2,
         "category": "living",
@@ -220,16 +228,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "vip_tent": {                                                                                 
+    "vip_tent": {
         "name": "VIP Палатка",
         "cost": 14000,
-        "description": "Отличное место для проживания, чтобы показать свою роскошь.", 
+        "description": "Отличное место для проживания, чтобы показать свою роскошь.",
         "upgradable": "true",
         "upgrade": "slate_house",
-        "upgrade_cost": 0.8, 
+        "upgrade_cost": 0.8,
         "build_duration": 240,
         "rent": 750,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "null",
         "capacity": 5,
         "category": "living",
@@ -240,16 +248,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "slate_house": {                                                                                 
+    "slate_house": {
         "name": "Шиферный домик",
         "cost": 40000,
-        "description": "Скажите спасибо, что не подвал.", 
+        "description": "Скажите спасибо, что не подвал.",
         "upgradable": "true",
         "upgrade": "old_house",
-        "upgrade_cost": 0.8, 
+        "upgrade_cost": 0.8,
         "build_duration": 480,
         "rent": 2000,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "null",
         "capacity": 2,
         "category": "living",
@@ -260,16 +268,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "old_house": {                                                                                 
+    "old_house": {
         "name": "Домик",
         "cost": 100000,
-        "description": "Именно то, что вы искали, чтобы отдохнуть от каменных джунглей.", 
+        "description": "Именно то, что вы искали, чтобы отдохнуть от каменных джунглей.",
         "upgradable": "true",
         "upgrade": "new_house",
-        "upgrade_cost": 0.8, 
+        "upgrade_cost": 0.8,
         "build_duration": 960,
         "rent": 5400,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "null",
         "capacity": 5,
         "category": "living",
@@ -280,16 +288,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "new_house": {                                                                                 
+    "new_house": {
         "name": "Домик с удобствами",
         "cost": 300000,
-        "description": "Если любите природу и отдых со всеми удобствами.", 
+        "description": "Если любите природу и отдых со всеми удобствами.",
         "upgradable": "true",
         "upgrade": "future_house",
-        "upgrade_cost": 0.8, 
+        "upgrade_cost": 0.8,
         "build_duration": 1460,
         "rent": 15000,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "septic",
         "capacity": 7,
         "category": "living",
@@ -300,18 +308,18 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "future_house": {                                                                                 
+    "future_house": {
         "name": "Домик будущего",
         "cost": 800000,
-        "description": "Разве что в космос не улетит.", 
+        "description": "Разве что в космос не улетит.",
         "upgradable": "true",
-        "upgrade": "future_house", 
-        "upgrade_cost": 0.8, 
-        "build_duration": 1460,
-        "rent": 15000,
-        "remove_cost": 2.1, 
+        "upgrade": "future_house",
+        "upgrade_cost": 0.8,
+        "build_duration": 2920,
+        "rent": 40000,
+        "remove_cost": 2.1,
         "requirement": "septic",
-        "capacity": 7,
+        "capacity": 10,
         "category": "living",
         "length": 10,
         "width": 9,
@@ -320,16 +328,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "old_hostel": {                                                                                 
+    "old_hostel": {
         "name": "Корпуса",
         "cost": 600000,
-        "description": "Каменные джунгли в Ягодном. Надежное здание на века.", 
+        "description": "Каменные джунгли в Ягодном. Надежное здание на века.",
         "upgradable": false,
         "upgrade": "null",
         "upgrade_cost": "null",
         "build_duration": 2920,
         "rent": 70000,
-        "remove_cost": 3.0, 
+        "remove_cost": 3,
         "requirement": "septic",
         "capacity": 20,
         "category": "living",
@@ -340,16 +348,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "hostel": {                                                                                 
+    "hostel": {
         "name": "Хостел",
         "cost": 1200000,
-        "description": "Просторное здание с большой вместимостью и теплым полом.", 
+        "description": "Просторное здание с большой вместимостью и теплым полом.",
         "upgradable": "true",
         "upgrade": "new_hostel",
-        "upgrade_cost": 0, 
+        "upgrade_cost": 0,
         "build_duration": 2920,
         "rent": 70000,
-        "remove_cost": 3.0, 
+        "remove_cost": 3,
         "requirement": "septic",
         "capacity": 20,
         "category": "living",
@@ -360,16 +368,16 @@
         "fixed": "false",
         "debuff": "null"
     },
-    "rektorskiy": {                                                                                 
+    "rektorskiy": {
         "name": "Ректорский дом",
         "cost": 500000,
-        "description": "Дом для важных персон.", 
+        "description": "Дом для важных персон.",
         "upgradable": false,
         "upgrade": "null",
         "upgrade_cost": "null",
         "build_duration": 2920,
         "rent": 21000,
-        "remove_cost": 0.9, 
+        "remove_cost": 0.9,
         "requirement": "septic",
         "capacity": 10,
         "category": "living",
@@ -378,18 +386,21 @@
         "random_event": 102,
         "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "dotation",
+            "count": "0.2"
+        }
     },
-    "new_hostel": {                                                                                 
+    "new_hostel": {
         "name": "2-х этажный хостел",
         "cost": 6000000,
-        "description": "Ещё больше и ещё теплее.", 
+        "description": "Ещё больше и ещё теплее.",
         "upgradable": false,
         "upgrade": "null",
         "upgrade_cost": "null",
         "build_duration": 2920,
         "rent": 300000,
-        "remove_cost": 3.9, 
+        "remove_cost": 3.9,
         "requirement": "septic",
         "capacity": 50,
         "category": "living",
@@ -399,8 +410,7 @@
         "utility_description": "Стоимость аренды: $rent. Вместимость: $capacity",
         "fixed": "false",
         "debuff": "null"
-    }
-,
+    },
     "road_1": {
         "name": "Грунтовая дорога до лагеря",
         "cost": 20000,
@@ -417,7 +427,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -437,7 +447,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -457,7 +467,7 @@
         "length": 3,
         "width": 3,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -470,16 +480,19 @@
         "upgrade_cost": "null",
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 3.0,
+        "remove_cost": 3,
         "requirement": "null",
         "capacity": 0,
         "category": "money",
         "length": 15,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "boats": {
         "name": "Лодочки",
@@ -497,9 +510,12 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "club": {
         "name": "Клуб",
@@ -510,14 +526,14 @@
         "upgrade_cost": "null",
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "null",
         "capacity": 0,
         "category": "infrastructure",
         "length": 15,
         "width": 11,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -537,7 +553,7 @@
         "length": 13,
         "width": 10,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -557,7 +573,7 @@
         "length": 17,
         "width": 25,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -577,9 +593,12 @@
         "length": 0,
         "width": 0,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "sport": {
         "name": "Спортивные площадки",
@@ -597,7 +616,7 @@
         "length": 70,
         "width": 50,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -617,7 +636,7 @@
         "length": 9,
         "width": 8,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -630,16 +649,19 @@
         "upgrade_cost": "null",
         "build_duration": 1860,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "septic",
         "capacity": 0,
         "category": "money",
         "length": 7,
         "width": 7,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета",
+        "utility_description": "Увеличивает дотацию университета на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "dotation",
+            "count": "0.1"
+        }
     },
     "inventory": {
         "name": "Спортивный инвентарь",
@@ -650,14 +672,14 @@
         "upgrade_cost": "null",
         "build_duration": 325,
         "rent": 0,
-        "remove_cost": 2.0,
+        "remove_cost": 2,
         "requirement": "coaching_house",
         "capacity": 0,
         "category": "infrastructure",
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -677,7 +699,7 @@
         "length": 10,
         "width": 7,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "false",
         "debuff": "null"
     },
@@ -697,7 +719,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -717,7 +739,7 @@
         "length": 0,
         "width": 0,
         "random_event": "null",
-        "utility_description": "Используется для мероприятий",
+        "utility_description": "Можно использовать для мероприятий",
         "fixed": "true",
         "debuff": "null"
     },
@@ -737,11 +759,13 @@
         "length": 10,
         "width": 5,
         "random_event": 102,
-        "utility_description": "Понравится администрации университета",
+        "utility_description": "Увеличивает дотацию университета на $count %",
         "fixed": "false",
-        "debuff": "null"
-    }
-,
+        "debuff": {
+            "type": "dotation",
+            "count": "0.1"
+        }
+    },
     "zabor_0": {
         "name": "Деревянный забор",
         "cost": 7000,
@@ -871,7 +895,7 @@
         "upgrade_cost": "null",
         "build_duration": 730,
         "rent": 0,
-        "remove_cost": 10.0,
+        "remove_cost": 10,
         "requirement": "septic",
         "capacity": 0,
         "category": "security",
@@ -891,8 +915,11 @@
         "upgrade_cost": "null",
         "build_duration": 10,
         "rent": 0,
-        "remove_cost": 100000000.0,
-        "requirement": ["big_guardian","toilet_guardian"],
+        "remove_cost": 100000000,
+        "requirement": [
+            "big_guardian",
+            "toilet_guardian"
+        ],
         "capacity": 0,
         "category": "security",
         "length": 0,
@@ -938,9 +965,12 @@
         "length": 7,
         "width": 5,
         "random_event": "102",
-        "utility_description": "Понравится администрации университета",
+        "utility_description": "Увеличит дотацию университета на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "dotation",
+            "count": "0.01"
+        }
     },
     "fire_security": {
         "name": "Пожарная сигнализация",
@@ -961,12 +991,11 @@
         "utility_description": "Повышает безопасность",
         "fixed": "true",
         "debuff": "null"
-    }
-,
+    },
     "path_1": {
         "name": "Тропинки протоптанные",
         "cost": 8000,
-        "description": "Чтобы случайно не наступить на вонючий куст.",
+        "description": "Чтобы случайно не наступить на [u]вонючий куст[/u].",
         "upgradable": "true",
         "upgrade": "path_2",
         "upgrade_cost": 0.1,
@@ -1006,7 +1035,7 @@
     "pointer": {
         "name": "Указатели",
         "cost": 13000,
-        "description": "Теперь все посетители будут знать где их домик, а где озеро.",
+        "description": "Теперь все будут знать где домик, а где озеро.",
         "upgradable": "false",
         "upgrade": "null",
         "upgrade_cost": "null",
@@ -1159,9 +1188,12 @@
         "length": 1,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "hammock": {
         "name": "Гамаки",
@@ -1179,9 +1211,12 @@
         "length": 1,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "true",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     },
     "gazebos": {
         "name": "Беседка",
@@ -1199,8 +1234,11 @@
         "length": 4,
         "width": 3,
         "random_event": 106,
-        "utility_description": "Увеличивает общий доход на 1%",
+        "utility_description": "Увеличивает общий доход на $count %",
         "fixed": "false",
-        "debuff": "null"
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        }
     }
 }
