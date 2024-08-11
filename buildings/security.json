@@ -16,14 +16,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true",
-        "debuff": "null",
-        "fixed_objects": [ 
-            {
-                "x": 0,
-                "y": 0
-            }
-        ]
+        "position_type": "layer",
+        "debuff": "null"
     },
     "zabor_1": {
         "name": "Красивый деревянный забор",
@@ -42,14 +36,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true",
-        "debuff": "null",
-        "fixed_objects": [ 
-            {
-                "x": 0,
-                "y": 0
-            }
-        ]
+        "position_type": "layer",
+        "debuff": "null"
     },
     "zabor_2": {
         "name": "Металлический забор",
@@ -68,14 +56,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true",
-        "debuff": "null",
-        "fixed_objects": [ 
-            {
-                "x": 0,
-                "y": 0
-            }
-        ]
+        "position_type": "layer",
+        "debuff": "null"
     },
     "zabor_3": {
         "name": "Забор с приколом",
@@ -94,14 +76,8 @@
         "width": 0,
         "random_event": 107,
         "utility_description": "Радует глаз и повышает безопасность",
-        "fixed": "true",
-        "debuff": "null",
-        "fixed_objects": [ 
-            {
-                "x": 0,
-                "y": 0
-            }
-        ]
+        "position_type": "layer",
+        "debuff": "null"
     },
     "small_guardian": {
         "name": "Будка охраны",
@@ -120,7 +96,7 @@
         "width": 4,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "false",
+        "position_type": "false",
         "debuff": "null"
     },
     "big_guardian": {
@@ -140,7 +116,7 @@
         "width": 5,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "false",
+        "position_type": "false",
         "debuff": "null"
     },
     "toilet_guardian": {
@@ -160,7 +136,7 @@
         "width": 6,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "false",
+        "position_type": "false",
         "debuff": "null"
     },
     "giga_boy": {
@@ -180,7 +156,7 @@
         "width": 0,
         "random_event": 107,
         "utility_description": "Радует глаз и повышает безопасность",
-        "fixed": "true",
+        "position_type": "position",
         "debuff": "null",
         "fixed_objects": [ 
             {
@@ -206,15 +182,8 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true",
-        "debuff": "null",
-        "invisible": "true",
-        "fixed_objects": [ 
-            {
-                "x": 0,
-                "y": 0
-            }
-        ]
+        "position_type": "invisible",
+        "debuff": "null"
     },
     "doctor": {
         "name": "Дом врача",
@@ -233,7 +202,7 @@
         "width": 5,
         "random_event": "102",
         "utility_description": "Увеличит дотацию университета на $count %",
-        "fixed": "false",
+        "position_type": "false",
         "debuff": {
             "type": "dotation",
             "count": "0.01"
@@ -256,14 +225,7 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Повышает безопасность",
-        "fixed": "true",
-        "debuff": "null",
-        "invisible": "true",
-        "fixed_objects": [ 
-            {
-                "x": 0,
-                "y": 0
-            }
-        ]
+        "position_type": "invisible",
+        "debuff": "null"
     }
 }
