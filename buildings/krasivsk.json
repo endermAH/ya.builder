@@ -259,5 +259,25 @@
             "type": "daily",
             "count": "0.01"
         }
+    },
+    "tree": {
+        "name": "Дерево",
+        "cost": 10000,
+        "description": "Как же дорого стоит спилить дерево...",
+        "upgradable": "false",
+        "upgrade": "null",
+        "upgrade_cost": "null",
+        "build_duration": 24,
+        "rent": 0,
+        "remove_cost": 10,
+        "requirement": "null",
+        "capacity": 0,
+        "category": "krasivsk",
+        "length": 4,
+        "width": 3,
+        "random_event": 106,
+        "utility_description": "",
+        "position_type": "false",
+        "debuff": "null"
     }
 }
