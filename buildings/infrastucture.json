@@ -16,8 +16,14 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
-        "position_type": "layer",
-        "debuff": "null"
+        "position_type": "position",
+        "debuff": "null",
+        "fixed_objects": [
+            {
+                "x": 0000,
+                "y": 0000
+            }
+        ]
     },
     "road_2": {
         "name": "Асфальтовая дорога до лагеря",
@@ -36,8 +42,14 @@
         "width": 0,
         "random_event": "null",
         "utility_description": "Можно использовать для мероприятий",
-        "position_type": "layer",
-        "debuff": "null"
+        "position_type": "position",
+        "debuff": "null",
+        "fixed_objects": [
+            {
+                "x": 0000,
+                "y": 0000
+            }
+        ]
     },
     "fireplace": {
         "name": "Костровое",
