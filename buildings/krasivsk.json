@@ -45,26 +45,6 @@
         "position_type": "layer",
         "debuff": "null"
     },
-    "beaty_paths": {
-        "name": "Камни вдоль тропинок",
-        "cost": 1000,
-        "description": "Очень красивые камни.",
-        "upgradable": "false",
-        "upgrade": "null",
-        "upgrade_cost": "null",
-        "build_duration": 120,
-        "rent": 0,
-        "remove_cost": "null",
-        "requirement": "null",
-        "capacity": 0,
-        "category": "krasivsk",
-        "length": 0,
-        "width": 0,
-        "random_event": 107,
-        "utility_description": "Радует глаз",
-        "position_type": "invisible",
-        "debuff": "null"
-    },
     "flowers": {
         "name": "Клумбы",
         "cost": 7000,
