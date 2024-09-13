@@ -149,7 +149,7 @@
         "build_duration": 10,
         "rent": 0,
         "remove_cost": 100000000.0,
-        "requirement": ["big_guardian","toilet_guardian"],
+        "requirement": "toilet_guardian",
         "capacity": 0,
         "category": "security",
         "length": 0,
