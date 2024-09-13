@@ -59,8 +59,8 @@
         "position_type": "false",
         "debuff": "null"
     },
-    "pier": {
-        "name": "Пирс",
+    "pier_1": {
+        "name": "Пирс №1",
         "cost": 123456,
         "description": "Самое любимое место в Ягодном.",
         "upgradable": "false",
@@ -76,12 +76,47 @@
         "width": 3,
         "random_event": 106,
         "utility_description": "Увеличивает общий доход на $count %",
-        "position_type": "layer",
+        "position_type": "position",
         "debuff": {
             "type": "daily",
             "count": "0.01"
-        }
+        },
+        "fixed_objects": [
+            {
+                "x": 0000,
+                "y": 0000
+            }
+        ]
     },
+    "pier_2": {
+        "name": "Пирс №2",
+        "cost": 123456,
+        "description": "Еще одно самое любимое место в Ягодном.",
+        "upgradable": "false",
+        "upgrade": "null",
+        "upgrade_cost": "null",
+        "build_duration": 730,
+        "rent": 0,
+        "remove_cost": 3,
+        "requirement": "null",
+        "capacity": 0,
+        "category": "money",
+        "length": 15,
+        "width": 3,
+        "random_event": 106,
+        "utility_description": "Увеличивает общий доход на $count %",
+        "position_type": "position",
+        "debuff": {
+            "type": "daily",
+            "count": "0.01"
+        },
+        "fixed_objects": [
+            {
+                "x": 0000,
+                "y": 0000
+            }
+        ]
+    }
     "boats": {
         "name": "Лодочки",
         "cost": 300000,
@@ -164,29 +199,6 @@
         "utility_description": "Можно использовать для мероприятий",
         "position_type": "false",
         "debuff": "null"
-    },
-    "way_down": {
-        "name": "Спуск в воду рядом с пирсом",
-        "cost": 234567,
-        "description": "Для осторожных пловцов.",
-        "upgradable": "false",
-        "upgrade": "null",
-        "upgrade_cost": "null",
-        "build_duration": 730,
-        "rent": 0,
-        "remove_cost": "null",
-        "requirement": "pier",
-        "capacity": 0,
-        "category": "money",
-        "length": 0,
-        "width": 0,
-        "random_event": 106,
-        "utility_description": "Увеличивает общий доход на $count %",
-        "position_type": "layer",
-        "debuff": {
-            "type": "daily",
-            "count": "0.01"
-        }
     },
     "sport": {
         "name": "Спортивные площадки",
