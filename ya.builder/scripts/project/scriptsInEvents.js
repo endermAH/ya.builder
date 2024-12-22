@@ -54,12 +54,12 @@ runtime.setReturnValue(date_string.toString())
 		CheckEvents(runtime.globalVars.CurrentTime, runtime)
 	},
 
-	async Es_time_Event8_Act1(runtime, localVars)
+	async Es_time_Event9_Act1(runtime, localVars)
 	{
 		AddEvent(parseInt(localVars.event_time), localVars.function_name, localVars.params)
 	},
 
-	async Es_time_Event9_Act1(runtime, localVars)
+	async Es_time_Event10_Act1(runtime, localVars)
 	{
 var current_time_ = runtime.globalVars.CurrentTime;
 var current_time_f = runtime.callFunction("time_to_date", runtime.globalVars.CurrentTime);
@@ -68,7 +68,7 @@ console.log(log_string);
 //runtime.getInstanceByUid(17).text += log_string;
 	},
 
-	async Es_economics_Event10_Act1(runtime, localVars)
+	async Es_economics_Event13_Act1(runtime, localVars)
 	{
 		let strNumber = Math.floor(localVars.money_).toString();  
 		let chars = strNumber.split('');
@@ -91,7 +91,7 @@ console.log(log_string);
 		CheckEvents(runtime.globalVars.CurrentTime, runtime)
 	},
 
-	async Es_ingameui_Event30_Act3(runtime, localVars)
+	async Es_ingameui_Event33_Act3(runtime, localVars)
 	{
 var buildings = runtime.objects.J_Buildings.getFirstInstance().getJsonDataCopy();
 
@@ -109,6 +109,10 @@ var cur_y = 0
 
 Object.entries(buildings).forEach((entry) => {
   const [key, value] = entry;
+  if (key == "zabor_0") {
+  	var zabor_exists = runtime.callFunction("is_wall_exists")
+	if (zabor_exists == "true") return
+  }
   if (value["category"] == localVars.сategory) {
   	var text_offset = 80 + 16  	
 	var create_x = localVars.init_x + cur_x * (tile_size + offset) + base_offset_x
@@ -130,7 +134,7 @@ var target_y = first_tile.getPosition()[1] - first_tile.getSize()[1] / 2
 selector.setPosition(target_x, target_y)
 	},
 
-	async Es_ingameui_Event109_Act2(runtime, localVars)
+	async Es_ingameui_Event123_Act2(runtime, localVars)
 	{
 		runtime.callFunction(localVars.function_to_call)
 	}
